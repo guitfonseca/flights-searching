@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Partidas baratas</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night: #0E1A2B;
+    --flap: #172840;
+    --flap-line: #0A1320;
+    --amber: #FFC23D;
+    --paper: #E6EBF2;
+    --muted: #8A9AB2;
+    --go: #5BD98A;
+    --cond: "Barlow Condensed", "Arial Narrow", sans-serif;
+    --body: "Barlow", system-ui, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { background: var(--night); }
+  body {
+    margin: 0; min-height: 100vh; background: var(--night);
+    color: var(--paper); font: 400 16px/1.5 var(--body);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+
+  header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+  h1 {
+    margin: 0; font: 700 clamp(2.4rem, 7vw, 4.2rem)/0.95 var(--cond);
+    color: var(--amber); letter-spacing: 0.01em;
+  }
+  .sub { margin: 8px 0 0; color: var(--muted); }
+  .clock { font: 600 1.05rem var(--cond); color: var(--paper); text-align: right; }
+  .clock small { display: block; font: 400 0.85rem var(--body); color: var(--muted); }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 28px 0 16px; align-items: center; }
+  .chip {
+    font: 600 0.95rem var(--cond); letter-spacing: 0.02em;
+    background: transparent; color: var(--paper); cursor: pointer;
+    border: 1px solid #2B3E5C; border-radius: 999px; padding: 6px 14px;
+  }
+  .chip[aria-pressed="true"] { background: var(--amber); color: var(--night); border-color: var(--amber); }
+  .chip:focus-visible, a:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+  .spacer { flex: 1; }
+  label.only { display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: 0.95rem; cursor: pointer; }
+  label.only input { accent-color: var(--amber); width: 18px; height: 18px; }
+
+  .board { border-top: 3px solid var(--amber); }
+  .head, .row {
+    display: grid; align-items: center; gap: 12px;
+    grid-template-columns: 2.4fr 1.3fr 1.4fr 0.9fr 1.2fr 1.6fr;
+    padding: 12px 4px;
+  }
+  .head { color: var(--muted); font: 500 0.85rem var(--cond); letter-spacing: 0.04em; border-bottom: 1px solid #22344F; }
+  .row { border-bottom: 1px solid #1B2B44; }
+  .row.promo { background: linear-gradient(90deg, rgba(255,194,61,0.08), transparent 60%); }
+
+  .dest { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .flaps { display: inline-flex; gap: 3px; }
+  .flaps span {
+    width: 1.55em; height: 1.95em; display: grid; place-items: center;
+    background: var(--flap); border-radius: 3px; position: relative;
+    font: 700 1.25rem var(--cond); color: var(--paper);
+  }
+  .flaps span::after {
+    content: ""; position: absolute; left: 0; right: 0; top: 50%;
+    height: 1px; background: var(--flap-line);
+  }
+  .dname { font: 600 1.15rem/1.15 var(--cond); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .dname small { display: block; font: 400 0.8rem var(--body); color: var(--muted); }
+
+  .cell { font: 500 1rem var(--cond); }
+  .cell small { display: block; font: 400 0.8rem var(--body); color: var(--muted); }
+  .price { font: 700 1.5rem/1 var(--cond); color: var(--paper); }
+  .promo .price { color: var(--amber); }
+  .status { font: 600 0.95rem/1.25 var(--cond); color: var(--muted); }
+  .promo .status { color: var(--go); }
+  .status a { color: var(--paper); font: 500 0.85rem var(--body); margin-right: 10px; white-space: nowrap; }
+  .c-dates { white-space: nowrap; }
+
+  .empty { padding: 48px 4px; color: var(--muted); }
+  .empty b { color: var(--paper); }
+  footer { margin-top: 28px; color: var(--muted); font-size: 0.85rem; }
+
+  @media (max-width: 760px) {
+    .head { display: none; }
+    .row {
+      grid-template-columns: 1fr auto;
+      grid-template-areas: "dest price" "orig dates" "status status";
+      row-gap: 8px;
+    }
+    .dest { grid-area: dest; }
+    .dname { white-space: normal; }
+    .clock { text-align: left; }
+    .c-price { grid-area: price; text-align: right; }
+    .c-orig { grid-area: orig; }
+    .c-dates { grid-area: dates; text-align: right; }
+    .c-stops { display: none; }
+    .status { grid-area: status; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Partidas baratas</h1>
+      <p class="sub">Menor preço ida e volta por rota, saindo de SP — Rio e BH só aparecem em destaque quando compensam com o ônibus.</p>
+    </div>
+    <div class="clock" id="clock">—<small>última varredura</small></div>
+  </header>
+
+  <div class="controls" id="filters">
+    <button class="chip" data-g="all" aria-pressed="true">Todas</button>
+    <button class="chip" data-g="nacional" aria-pressed="false">Brasil</button>
+    <button class="chip" data-g="america_do_sul" aria-pressed="false">América do Sul</button>
+    <button class="chip" data-g="america_do_norte" aria-pressed="false">América do Norte</button>
+    <button class="chip" data-g="europa" aria-pressed="false">Europa</button>
+    <span class="spacer"></span>
+    <label class="only"><input type="checkbox" id="onlyPromo"> Só promoções</label>
+  </div>
+
+  <div class="board" role="table" aria-label="Passagens">
+    <div class="head" role="row">
+      <span>Destino</span><span>Saindo de</span><span>Datas</span><span>Escalas</span><span>Preço</span><span>Situação</span>
+    </div>
+    <div id="rows"></div>
+  </div>
+
+  <footer>Preços em cache da Aviasales: confirme sempre no site da companhia antes de comprar.</footer>
+</div>
+
+<script>
+const fmtBRL = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
+const fmtD = s => s ? new Date(s + "T12:00").toLocaleDateString("pt-BR", { day: "2-digit", month: "short" }).replace(".", "") : "—";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+let data = { routes: [] }, group = "all", only = false;
+
+function render() {
+  const rows = data.routes.filter(r => (group === "all" || r.grupo === group) && (!only || r.promo));
+  const el = document.getElementById("rows");
+  if (!data.updated_at) {
+    el.innerHTML = `<div class="empty"><b>Nenhuma varredura ainda.</b> Rode o workflow “Caçar passagens” na aba Actions do repositório.</div>`;
+    return;
+  }
+  if (!rows.length) {
+    el.innerHTML = `<div class="empty"><b>Nada por aqui agora.</b> Troque o filtro ou desmarque “Só promoções”.</div>`;
+    return;
+  }
+  el.innerHTML = rows.map(r => `
+    <div class="row ${r.promo ? "promo" : ""}" role="row">
+      <div class="dest">
+        <span class="flaps" aria-label="${esc(r.destino)}">${[...r.destino].map(c => `<span data-c="${esc(c)}">${esc(c)}</span>`).join("")}</span>
+        <span class="dname">${esc(r.destino_nome)}<small>${esc(r.cia)}</small></span>
+      </div>
+      <div class="cell c-orig">${esc(r.origem_nome)}${r.onibus ? `<small>+ ${fmtBRL(r.onibus)} de ônibus</small>` : ""}</div>
+      <div class="cell c-dates">${fmtD(r.ida)} → ${fmtD(r.volta)}</div>
+      <div class="cell c-stops">${r.escalas ? r.escalas + (r.escalas > 1 ? " escalas" : " escala") : "Direto"}</div>
+      <div class="c-price"><span class="price">${fmtBRL(r.preco)}</span>${r.onibus ? `<small class="cell"><small>total ${fmtBRL(r.custo)}</small></small>` : ""}</div>
+      <div class="status">
+        ${r.promo ? esc(r.motivos.join("; ")) : (r.mediana ? "Normal (mediana " + fmtBRL(r.mediana) + ")" : "Juntando histórico")}
+        <div>${r.aviasales ? `<a href="${esc(r.aviasales)}" target="_blank" rel="noopener">Aviasales</a>` : ""}<a href="${esc(r.google)}" target="_blank" rel="noopener">Google Flights</a></div>
+      </div>
+    </div>`).join("");
+}
+
+// Único movimento da página: as plaquinhas "giram" uma vez ao carregar.
+function flip() {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const A = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  document.querySelectorAll(".flaps span[data-c]").forEach((s, i) => {
+    let n = 6 + (i % 9);
+    const t = setInterval(() => {
+      s.textContent = --n <= 0 ? s.dataset.c : A[Math.random() * 26 | 0];
+      if (n <= 0) clearInterval(t);
+    }, 45);
+  });
+}
+
+document.getElementById("filters").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  group = b.dataset.g;
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === b));
+  render();
+});
+document.getElementById("onlyPromo").addEventListener("change", e => { only = e.target.checked; render(); });
+
+fetch("board.json?" + Date.now()).then(r => r.json()).then(j => {
+  data = j;
+  if (j.updated_at) {
+    const d = new Date(j.updated_at);
+    document.getElementById("clock").innerHTML =
+      d.toLocaleString("pt-BR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }) + "<small>última varredura</small>";
+  }
+  render(); flip();
+}).catch(() => {
+  document.getElementById("rows").innerHTML = `<div class="empty"><b>Não consegui ler board.json.</b> Confira se o GitHub Pages está apontando pra pasta /docs.</div>`;
+});
+</script>
+</body>
+</html>

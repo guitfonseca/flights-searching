@@ -1,0 +1,67 @@
+# Tudo que você quiser ajustar fica aqui. Preços em R$, ida e volta.
+
+busca:
+  meses_a_frente: 5          # quantos meses pra frente procurar
+  pausa_entre_chamadas: 0.3  # segundos (evita bater no limite da API)
+  max_alertas_por_rodada: 12
+  cooldown_dias: 5           # não repete o mesmo alerta antes disso...
+  reavisar_se_cair: 0.05     # ...a não ser que o preço caia mais 5%
+
+# "Promo" = abaixo do teto do grupo OU X% abaixo da mediana histórica da rota
+regra_promo:
+  queda_vs_mediana: 0.30     # 30% abaixo do normal
+  min_dias_historico: 5      # precisa de alguns dias de dados pra confiar na mediana
+
+origens:
+  # principal = SP. Alternativas só alertam se compensarem MESMO com o ônibus.
+  - { codigo: SAO, nome: "São Paulo (GRU/CGH)", onibus: 0,   principal: true }
+  - { codigo: VCP, nome: "Campinas (Viracopos)", onibus: 70,  principal: true }
+  - { codigo: RIO, nome: "Rio (GIG/SDU)",        onibus: 260, principal: false }
+  - { codigo: BHZ, nome: "BH (CNF)",             onibus: 300, principal: false }
+
+# Origem alternativa só vale se o custo total (passagem + ônibus) ficar
+# pelo menos isso abaixo do melhor preço saindo de SP pro mesmo destino.
+economia_minima_alternativa: 250
+
+grupos:
+  nacional:
+    teto: 550
+    destinos:
+      - { codigo: REC, nome: Recife }
+      - { codigo: SSA, nome: Salvador }
+      - { codigo: FOR, nome: Fortaleza }
+      - { codigo: NAT, nome: Natal }
+      - { codigo: MCZ, nome: Maceió }
+      - { codigo: JPA, nome: "João Pessoa" }
+      - { codigo: BPS, nome: "Porto Seguro" }
+      - { codigo: FLN, nome: Florianópolis, teto: 400 }
+      - { codigo: POA, nome: "Porto Alegre", teto: 400 }
+      - { codigo: IGU, nome: "Foz do Iguaçu", teto: 450 }
+      - { codigo: BEL, nome: Belém, teto: 700 }
+      - { codigo: MAO, nome: Manaus, teto: 800 }
+  america_do_sul:
+    teto: 1300
+    destinos:
+      - { codigo: BUE, nome: "Buenos Aires", teto: 1100 }
+      - { codigo: SCL, nome: Santiago }
+      - { codigo: MVD, nome: Montevidéu }
+      - { codigo: LIM, nome: Lima, teto: 1600 }
+      - { codigo: BOG, nome: Bogotá, teto: 1700 }
+  america_do_norte:
+    teto: 2700
+    destinos:
+      - { codigo: MIA, nome: Miami }
+      - { codigo: MCO, nome: Orlando }
+      - { codigo: NYC, nome: "Nova York", teto: 3000 }
+      - { codigo: CUN, nome: Cancún }
+      - { codigo: YTO, nome: Toronto, teto: 3300 }
+  europa:
+    teto: 3300
+    destinos:
+      - { codigo: LIS, nome: Lisboa, teto: 3000 }
+      - { codigo: OPO, nome: Porto, teto: 3000 }
+      - { codigo: MAD, nome: Madri }
+      - { codigo: BCN, nome: Barcelona }
+      - { codigo: PAR, nome: Paris }
+      - { codigo: ROM, nome: Roma }
+      - { codigo: LON, nome: Londres }
