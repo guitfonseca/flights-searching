@@ -1,0 +1,44 @@
+name: Caçar passagens
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # a cada 6h (UTC)
+  workflow_dispatch:          # botão "Run workflow" pra rodar na mão
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cacar-passagens
+  cancel-in-progress: false
+
+jobs:
+  cacar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Buscar preços e alertar
+        run: python flight_alerts.py
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Salvar histórico e painel
+        run: |
+          git config user.name "cacador-de-passagens"
+          git config user.email "cacador-de-passagens@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "preços $(date -u +%F\ %H:%M)"
+          git push
