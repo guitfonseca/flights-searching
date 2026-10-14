@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14T04:55+00:00",
+ "updated_at": "2026-10-14T11:54+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -1399,6 +1399,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MAD%20on%202026-11-26%20through%202026-12-03"
   },
   {
+   "origem": "BHZ",
+   "origem_nome": "BH (CNF)",
+   "destino": "MIA",
+   "destino_nome": "Miami",
+   "grupo": "america_do_norte",
+   "preco": 3274,
+   "onibus": 300,
+   "custo": 3574,
+   "ida": "2026-11-06",
+   "volta": "2026-11-16",
+   "escalas": 1,
+   "cia": "CM",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/BHZ0611MIA16111?t=CM17939286001793991960001176CNFPTYMIA17948280601794875100000664MIAPTYCNF_8547640bf3d149ccdb343f73fc65ff45_54662&search_date=14102026&expected_price_uuid=01a139f6-9449-8040-600c-ed066327d285&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DxC9hgx-BH5vy-nl5ukNFw&expected_price_source=share&expected_price_currency=brl&expected_price=3274",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20MIA%20on%202026-11-06%20through%202026-11-16"
+  },
+  {
    "origem": "VCP",
    "origem_nome": "Campinas (Viracopos)",
    "destino": "LIS",
@@ -1416,25 +1435,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/VCP1602LIS09031?t=AD18028140001802886600001030VCPMADLIS18045939001804620300000620LISVCP_8b6eea487b55946dda8d518c7d7d69d0_60506&search_date=09102026&expected_price_uuid=01a121b2-d30d-8030-2fa5-4a7e8c86825b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=9TYA7NIZvmCuD4QcP10Ugw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3546",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20LIS%20on%202027-02-16%20through%202027-03-09"
-  },
-  {
-   "origem": "SAO",
-   "origem_nome": "São Paulo (GRU/CGH)",
-   "destino": "ROM",
-   "destino_nome": "Roma",
-   "grupo": "europa",
-   "preco": 3714,
-   "onibus": 0,
-   "custo": 3714,
-   "ida": "2026-10-24",
-   "volta": "2026-11-05",
-   "escalas": 1,
-   "cia": "UX",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO2410ROM05111?t=AD17928750001793006400001950VCPMADFCO17938584001793899800000930FCOMADVCP_a94be390d96eeefde9047fe7e2c2ac6d_63303&search_date=07102026&expected_price_uuid=01a11593-2dd3-8030-21f4-662b7488575e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=y5_BLHv5NZOJPlKWqYJDOw&expected_price_source=share&expected_price_currency=brl&expected_price=3714",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FCO%20on%202026-10-24%20through%202026-11-05"
   },
   {
    "origem": "VCP",
@@ -1456,23 +1456,23 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MAD%20on%202026-11-10%20through%202026-11-17"
   },
   {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
+   "origem": "SAO",
+   "origem_nome": "São Paulo (GRU/CGH)",
    "destino": "ROM",
    "destino_nome": "Roma",
    "grupo": "europa",
-   "preco": 3714,
-   "onibus": 70,
-   "custo": 3784,
-   "ida": "2026-10-24",
-   "volta": "2026-11-05",
+   "preco": 3798,
+   "onibus": 0,
+   "custo": 3798,
+   "ida": "2027-02-10",
+   "volta": "2027-04-08",
    "escalas": 1,
-   "cia": "UX",
+   "cia": "TP",
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP2410ROM05111?t=AD17928750001793006400001950VCPMADFCO17938584001793899800000930FCOMADVCP_a94be390d96eeefde9047fe7e2c2ac6d_63303&search_date=07102026&expected_price_uuid=01a11593-2dd3-8030-21f4-662b7488575e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=y5_BLHv5NZOJPlKWqYJDOw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3714",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FCO%20on%202026-10-24%20through%202026-11-05"
+   "aviasales": "https://www.aviasales.com/search/SAO1002ROM08041?t=TP18023013001802371500000930GRULISFCO18071637001807249800001735FCOLISGRU_dce26e2b4ae7530299a47b6e53915948_64763&search_date=07102026&expected_price_uuid=01a11863-c631-8030-2da6-2b3a93fd6317&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=e0tsT9Jm00sGBGsItJMcsQ&expected_price_source=share&expected_price_currency=brl&expected_price=3798",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20FCO%20on%202027-02-10%20through%202027-04-08"
   },
   {
    "origem": "SAO",
@@ -1499,9 +1499,9 @@
    "destino": "MCO",
    "destino_nome": "Orlando",
    "grupo": "america_do_norte",
-   "preco": 3850,
+   "preco": 3849,
    "onibus": 70,
-   "custo": 3920,
+   "custo": 3919,
    "ida": "2027-02-17",
    "volta": "2027-02-25",
    "escalas": 2,
@@ -1509,7 +1509,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1702MCO25021?t=AD18029064001802979000001330VCPGIGCNFMCO18035820001803621300000535MCOVCP_8e50513d1a83b18d6011b28097c9d323_64565&search_date=14102026&expected_price_uuid=01a137b6-37a1-8030-2a57-21e2d5876d64&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t2SGAKNeen9lcNCFipRDUQ&origin_airports=0,1&destination_airports=0,1&expected_price_source=share&expected_price_currency=brl&expected_price=3850",
+   "aviasales": "https://www.aviasales.com/search/VCP1702MCO25021?t=AD18029064001802979000001330VCPGIGCNFMCO18035820001803621300000535MCOVCP_8e50513d1a83b18d6011b28097c9d323_64565&search_date=14102026&expected_price_uuid=01a137b6-37a1-8030-2a57-21e2d5876d64&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t2SGAKNeen9lcNCFipRDUQ&origin_airports=0,1&destination_airports=0,1&expected_price_source=share&expected_price_currency=brl&expected_price=3849",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MCO%20on%202027-02-17%20through%202027-02-25"
   },
   {
@@ -1815,6 +1815,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/VCP0911MIA16111?t=CM17942004001794260160001116VCPGIGPTYMIA17948336401794898800000966MIAPTYGIGVCP_4825da4439b246596059591f0fa1d03a_83481&search_date=09102026&expected_price_uuid=01a11e47-daa9-8040-ad02-f699377371d8&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OT__lLq_PiKt-Vj5jv9Y4Q&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=4897",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MIA%20on%202026-11-09%20through%202026-11-16"
+  },
+  {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "ROM",
+   "destino_nome": "Roma",
+   "grupo": "europa",
+   "preco": 4980,
+   "onibus": 70,
+   "custo": 5050,
+   "ida": "2027-02-10",
+   "volta": "2027-04-08",
+   "escalas": 2,
+   "cia": "AD",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP1002ROM08041?t=AD18022848001802372700001225VCPLISMADFCO18071907001807287600001915FCOLISVCP_e377437e5ccc96448d867c235f40b331_84924&search_date=07102026&expected_price_uuid=01a11863-c631-8030-2da6-2b3a93fd6317&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=oQRa_mMdC8JgkvynVe7zqw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=4980",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FCO%20on%202027-02-10%20through%202027-04-08"
   },
   {
    "origem": "RIO",
