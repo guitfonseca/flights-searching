@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T04:40+00:00",
+ "updated_at": "2026-10-15T11:31+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -1097,25 +1097,6 @@
   {
    "origem": "VCP",
    "origem_nome": "Campinas (Viracopos)",
-   "destino": "SCL",
-   "destino_nome": "Santiago",
-   "grupo": "america_do_sul",
-   "preco": 2033,
-   "onibus": 70,
-   "custo": 2103,
-   "ida": "2026-12-11",
-   "volta": "2026-12-15",
-   "escalas": 1,
-   "cia": "AD",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1112SCL15121?t=JA17969700001796991600000360VCPFLNSCL17973495001797369600000335SCLFLNVCP_b6171aa80e53e024ff5d65902258bddf_34669&search_date=08102026&expected_price_uuid=01a11b44-c370-8040-2689-45f04e8003d6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=z0xHvKiDzfDpmoCsBGPsfA&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=2033",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20SCL%20on%202026-12-11%20through%202026-12-15"
-  },
-  {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
    "destino": "MVD",
    "destino_nome": "Montevidéu",
    "grupo": "america_do_sul",
@@ -1131,6 +1112,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/VCP2802MVD07031?t=JA18038568001803906420000827VCPGIGMVD18044325001804512300001330MVDFLNVCP_a81a4da8ae1f82ba08a9e476a716ec5a_35498&search_date=10102026&expected_price_uuid=01a12804-f6b6-8040-a0cf-b01ba7daf6d9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=D38iAFk2ObRkLrDyIh2raA&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=2079",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MVD%20on%202027-02-28%20through%202027-03-07"
+  },
+  {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "SCL",
+   "destino_nome": "Santiago",
+   "grupo": "america_do_sul",
+   "preco": 2089,
+   "onibus": 70,
+   "custo": 2159,
+   "ida": "2026-12-01",
+   "volta": "2026-12-07",
+   "escalas": 2,
+   "cia": "G3",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP0112SCL07121?t=G317961213001796203500001370VCPGIGAEPSCL17966577001796771100001890SCLAEPGIGVCP_3639b12a1fe482ed3638ff353ba2c6cf_34839&search_date=13102026&expected_price_uuid=01a135fe-ba8e-8030-ecde-07a4e4afe2c9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=VvBtkAdEQM-OSurLmbVaPw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=2089",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20SCL%20on%202026-12-01%20through%202026-12-07"
   },
   {
    "origem": "RIO",
