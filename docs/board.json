@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T04:36+00:00",
+ "updated_at": "2026-10-16T11:27+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -1328,9 +1328,9 @@
    "destino": "LIS",
    "destino_nome": "Lisboa",
    "grupo": "europa",
-   "preco": 3277,
+   "preco": 3276,
    "onibus": 0,
-   "custo": 3277,
+   "custo": 3276,
    "ida": "2026-11-13",
    "volta": "2026-11-21",
    "escalas": 0,
@@ -1338,7 +1338,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&expected_price_source=share&expected_price_currency=brl&expected_price=3277",
+   "aviasales": "https://www.aviasales.com/search/SAO1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&expected_price_source=share&expected_price_currency=brl&expected_price=3276",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20LIS%20on%202026-11-13%20through%202026-11-21"
   },
   {
@@ -1366,9 +1366,9 @@
    "destino": "LIS",
    "destino_nome": "Lisboa",
    "grupo": "europa",
-   "preco": 3277,
+   "preco": 3276,
    "onibus": 70,
-   "custo": 3347,
+   "custo": 3346,
    "ida": "2026-11-13",
    "volta": "2026-11-21",
    "escalas": 0,
@@ -1376,7 +1376,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3277",
+   "aviasales": "https://www.aviasales.com/search/VCP1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3276",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20LIS%20on%202026-11-13%20through%202026-11-21"
   },
   {
@@ -1404,9 +1404,9 @@
    "destino": "MAD",
    "destino_nome": "Madri",
    "grupo": "europa",
-   "preco": 3537,
+   "preco": 3499,
    "onibus": 0,
-   "custo": 3537,
+   "custo": 3499,
    "ida": "2026-11-26",
    "volta": "2026-12-03",
    "escalas": 1,
@@ -1414,7 +1414,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO2611MAD03121?t=LH17957079001795776600000905GRUFCOMAD17962827001796326500000970MADMUCGRU_bc1da8f83686838fbd3ea7e62aba7747_59510&search_date=12102026&expected_price_uuid=01a1324c-ba53-8040-619c-498095536217&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=WO11dveAF92MzEK3sFBDag&expected_price_source=share&expected_price_currency=brl&expected_price=3537",
+   "aviasales": "https://www.aviasales.com/search/SAO2611MAD03121?t=AZ17957079001795799400001285GRUFCOMAD17962773001796323200001005MADFCOGRU_d8fcfde9a739e41323d9b6291d811d91_57471&search_date=16102026&expected_price_uuid=01a1445a-4c65-8040-a927-ef90baa5d737&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jHCfwvXkccinQTC7b1RsQQ&expected_price_source=share&expected_price_currency=brl&expected_price=3499",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MAD%20on%202026-11-26%20through%202026-12-03"
   },
   {
@@ -1879,9 +1879,9 @@
    "destino": "YTO",
    "destino_nome": "Toronto",
    "grupo": "america_do_norte",
-   "preco": 4910,
+   "preco": 4908,
    "onibus": 300,
-   "custo": 5210,
+   "custo": 5208,
    "ida": "2027-01-20",
    "volta": "2027-01-27",
    "escalas": 1,
@@ -1889,7 +1889,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/BHZ2001YTO27011?t=TS18004878001800556200001260CNFGIGYYZ18010314001801120200001360YYZPUJGRUCNF_118b9263331867e0a330f32231b39912_80798&search_date=16102026&expected_price_uuid=01a14283-0872-8040-6534-ae47859743c6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JufnTegKoGfqXRz9e1JL7Q&expected_price_source=share&expected_price_currency=brl&expected_price=4910",
+   "aviasales": "https://www.aviasales.com/search/BHZ2001YTO27011?t=TS18004878001800556200001260CNFGIGYYZ18010314001801120200001360YYZPUJGRUCNF_118b9263331867e0a330f32231b39912_80798&search_date=16102026&expected_price_uuid=01a14283-0872-8040-6534-ae47859743c6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JufnTegKoGfqXRz9e1JL7Q&expected_price_source=share&expected_price_currency=brl&expected_price=4908",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20YYZ%20on%202027-01-20%20through%202027-01-27"
   },
   {
