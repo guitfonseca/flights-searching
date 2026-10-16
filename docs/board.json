@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T16:42+00:00",
+ "updated_at": "2026-10-16T21:10+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -7,11 +7,11 @@
    "destino": "SCL",
    "destino_nome": "Santiago",
    "grupo": "america_do_sul",
-   "preco": 1052,
+   "preco": 1081,
    "onibus": 0,
-   "custo": 1052,
-   "ida": "2026-10-19",
-   "volta": "2026-10-22",
+   "custo": 1081,
+   "ida": "2026-12-04",
+   "volta": "2026-12-11",
    "escalas": 0,
    "cia": "H2",
    "mediana": null,
@@ -19,8 +19,8 @@
    "motivos": [
     "abaixo do teto (R$ 1.300)"
    ],
-   "aviasales": "https://www.aviasales.com/search/SAO1910SCL22101?t=H217924148001792430160000256GRUSCL17926549801792668900000232SCLGRU_056c60e2323249949119a931060664c2_17956&search_date=09102026&expected_price_uuid=01a1226a-4840-8040-a9f2-cdae3b88f932&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=I1xl9p9A1u3xXaK6uLNoxA&expected_price_source=share&expected_price_currency=brl&expected_price=1052",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20SCL%20on%202026-10-19%20through%202026-10-22"
+   "aviasales": "https://www.aviasales.com/search/SAO0412SCL11121?t=H217963892001796404500000255GRUSCL17969751001796988900000230SCLGRU_5ad69d6b242c2b63b8a61e513d023d47_18442&search_date=11102026&expected_price_uuid=01a12935-80e3-8030-6fb4-29ce4d49cdb1&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ynDRmVAeUkAzfPtCaBu4DA&expected_price_source=share&expected_price_currency=brl&expected_price=1081",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20SCL%20on%202026-12-04%20through%202026-12-11"
   },
   {
    "origem": "RIO",
@@ -49,11 +49,11 @@
    "destino": "LIM",
    "destino_nome": "Lima",
    "grupo": "america_do_sul",
-   "preco": 1270,
+   "preco": 1271,
    "onibus": 0,
-   "custo": 1270,
-   "ida": "2027-01-25",
-   "volta": "2027-02-18",
+   "custo": 1271,
+   "ida": "2026-12-02",
+   "volta": "2026-12-09",
    "escalas": 0,
    "cia": "H2",
    "mediana": null,
@@ -61,8 +61,8 @@
    "motivos": [
     "abaixo do teto (R$ 1.600)"
    ],
-   "aviasales": "https://www.aviasales.com/search/SAO2501LIM18021?t=H218008574001800868200000300GRULIM18029880001803012900000295LIMGRU_73ba590cf92bfddee9a66dc48292e44f_21678&search_date=09102026&expected_price_uuid=01a12235-edd6-8031-6115-1983adb6364c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4a0C661PDHkDnsMCMKbadA&expected_price_source=share&expected_price_currency=brl&expected_price=1270",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20LIM%20on%202027-01-25%20through%202027-02-18"
+   "aviasales": "https://www.aviasales.com/search/SAO0212LIM09121?t=H217962386001796249700000305GRULIM17968146001796839800000300LIMGRU_2aee3c9321a6ca1ff0803aeca9d2d61e_21705&search_date=10102026&expected_price_uuid=01a12821-ca74-8031-2d77-146868f43ad6&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=nh-GJxeBMK24NyqnxxiZVw&expected_price_source=share&expected_price_currency=brl&expected_price=1271",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20LIM%20on%202026-12-02%20through%202026-12-09"
   },
   {
    "origem": "SAO",
@@ -411,25 +411,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20SDU%20to%20BPS%20on%202027-01-05%20through%202027-01-12"
   },
   {
-   "origem": "SAO",
-   "origem_nome": "São Paulo (GRU/CGH)",
-   "destino": "BEL",
-   "destino_nome": "Belém",
-   "grupo": "nacional",
-   "preco": 1107,
-   "onibus": 0,
-   "custo": 1107,
-   "ida": "2027-02-20",
-   "volta": "2027-03-11",
-   "escalas": 1,
-   "cia": "G3",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO2002BEL11031?t=G318031467001803209700001050VCPBSBBEL18047412001804761900000345BELBSBVCP_ef1c0e17ada198ad2f3a31faaa636fd6_18881&search_date=09102026&expected_price_uuid=01a1221f-6c6c-8040-2787-d968daee3f6e&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=QUE7LUAZd2l10wfMgsHLgw&expected_price_source=share&expected_price_currency=brl&expected_price=1107",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20BEL%20on%202027-02-20%20through%202027-03-11"
-  },
-  {
    "origem": "VCP",
    "origem_nome": "Campinas (Viracopos)",
    "destino": "FOR",
@@ -485,25 +466,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/SAO2302NAT28021?t=AD18033909001803402600000195VCPNAT18038166001803851100000575NATSSACGH_1225172cf745ee1e917a7e9787054d18_18808&search_date=15102026&expected_price_uuid=01a13f09-a74d-8030-ef76-8bda0439bedd&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vtH0G4zDELIyvGTzhAhnIQ&expected_price_source=share&expected_price_currency=brl&expected_price=1146",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20NAT%20on%202027-02-23%20through%202027-02-28"
-  },
-  {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "BEL",
-   "destino_nome": "Belém",
-   "grupo": "nacional",
-   "preco": 1107,
-   "onibus": 70,
-   "custo": 1177,
-   "ida": "2027-02-20",
-   "volta": "2027-03-11",
-   "escalas": 1,
-   "cia": "G3",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP2002BEL11031?t=G318031467001803209700001050VCPBSBBEL18047412001804761900000345BELBSBVCP_ef1c0e17ada198ad2f3a31faaa636fd6_18881&search_date=09102026&expected_price_uuid=01a1221f-6c6c-8040-2787-d968daee3f6e&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=QUE7LUAZd2l10wfMgsHLgw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1107",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20BEL%20on%202027-02-20%20through%202027-03-11"
   },
   {
    "origem": "VCP",
@@ -599,25 +561,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/RIO0912SSA11121?t=LA17968284001796835600000120GIGSSA17969811001796988900000130SSAGIG_7c9b7f82ea953f6c0d80e9f6c74eca7a_17059&search_date=10102026&expected_price_uuid=01a127b8-9287-8040-6143-7585b3bae08a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FkZF_8vhKVurg3_cURMYRg&expected_price_source=share&expected_price_currency=brl&expected_price=999",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20SSA%20on%202026-12-09%20through%202026-12-11"
-  },
-  {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "REC",
-   "destino_nome": "Recife",
-   "grupo": "nacional",
-   "preco": 1205,
-   "onibus": 70,
-   "custo": 1275,
-   "ida": "2026-11-13",
-   "volta": "2026-11-19",
-   "escalas": 0,
-   "cia": "AD",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1311REC19111?t=AD17945931001794604200000185VCPREC17951238001795135500000195RECVCP_dcbec4bb38005318bec00c76ca8883db_20556&search_date=09102026&expected_price_uuid=01a12213-4c64-8040-209f-70f0682a3a3d&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Bn-ReXc3f8BP_YpHvNwJuw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1205",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20REC%20on%202026-11-13%20through%202026-11-19"
   },
   {
    "origem": "VCP",
@@ -734,6 +677,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20FLN%20on%202027-01-02%20through%202027-01-07"
   },
   {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "REC",
+   "destino_nome": "Recife",
+   "grupo": "nacional",
+   "preco": 1276,
+   "onibus": 70,
+   "custo": 1346,
+   "ida": "2026-11-19",
+   "volta": "2026-11-25",
+   "escalas": 0,
+   "cia": "AD",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP1911REC25111?t=AD17951298001795140900000185VCPREC17955969001795608600000195RECVCP_9e104d6347f6e3a60890378beb69dbdd_21790&search_date=09102026&expected_price_uuid=01a122f7-8d22-8031-2573-5c680cbfcd61&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DIothNjpzPnnWXxWxfqLvg&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1276",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20REC%20on%202026-11-19%20through%202026-11-25"
+  },
+  {
    "origem": "RIO",
    "origem_nome": "Rio (GIG/SDU)",
    "destino": "JPA",
@@ -829,6 +791,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20POA%20on%202026-11-22%20through%202026-11-29"
   },
   {
+   "origem": "SAO",
+   "origem_nome": "São Paulo (GRU/CGH)",
+   "destino": "BEL",
+   "destino_nome": "Belém",
+   "grupo": "nacional",
+   "preco": 1545,
+   "onibus": 0,
+   "custo": 1545,
+   "ida": "2026-12-09",
+   "volta": "2026-12-14",
+   "escalas": 1,
+   "cia": "AD",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/SAO0912BEL14121?t=AD17968308001796849400000310CGHCNFBEL17972139001797240900000450BELCNFCGH_d168d6574918ba8df94ca6ff5b0a25f5_25923&search_date=13102026&expected_price_uuid=01a13682-5454-8031-64ff-62c1590324a8&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xBBneE19RdB3y3ByBMkacw&expected_price_source=share&expected_price_currency=brl&expected_price=1545",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CGH%20to%20BEL%20on%202026-12-09%20through%202026-12-14"
+  },
+  {
    "origem": "BHZ",
    "origem_nome": "BH (CNF)",
    "destino": "IGU",
@@ -884,6 +865,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/BHZ3110JPA07111?t=LA17934264001793444400000300CNFBSBJPA17940303001794073500000720JPAGRUCNF_24827cbea57268bfbb7b46ebcb83f674_25231&search_date=10102026&expected_price_uuid=01a125d4-526e-8040-a3f2-a2ae1d5b34f6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=srzb2JGiAaI49px9wIx8jg&expected_price_source=share&expected_price_currency=brl&expected_price=1478",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20JPA%20on%202026-10-31%20through%202026-11-07"
+  },
+  {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "BEL",
+   "destino_nome": "Belém",
+   "grupo": "nacional",
+   "preco": 1737,
+   "onibus": 70,
+   "custo": 1807,
+   "ida": "2026-12-09",
+   "volta": "2026-12-14",
+   "escalas": 0,
+   "cia": "AD",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP0912BEL14121?t=AD17968224001796834700000205VCPBEL17972682001797280800000210BELVCP_6c9d5a75196740907a65d8473d1325e8_29138&search_date=13102026&expected_price_uuid=01a13682-5454-8031-64ff-62c1590324a8&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=X6JN76qXHt5cGh5TcYUIUg&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1737",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20BEL%20on%202026-12-09%20through%202026-12-14"
   },
   {
    "origem": "VCP",
@@ -948,9 +948,9 @@
    "destino": "REC",
    "destino_nome": "Recife",
    "grupo": "nacional",
-   "preco": 1905,
+   "preco": 1904,
    "onibus": 300,
-   "custo": 2205,
+   "custo": 2204,
    "ida": "2026-12-31",
    "volta": "2027-01-11",
    "escalas": 0,
@@ -958,7 +958,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/BHZ3112REC11011?t=G317987217001798730400000145CNFREC17996463001799696400000835RECCGHCNF_282e836d58409d1e175a50bf549d6a5d_31401&search_date=16102026&expected_price_uuid=01a144d2-1a08-8030-aa9d-f273cdbccfc7&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BALMCctF8GVzuXxzS4Nf-Q&expected_price_source=share&expected_price_currency=brl&expected_price=1905",
+   "aviasales": "https://www.aviasales.com/search/BHZ3112REC11011?t=G317987217001798730400000145CNFREC17996463001799696400000835RECCGHCNF_282e836d58409d1e175a50bf549d6a5d_31401&search_date=16102026&expected_price_uuid=01a144d2-1a08-8030-aa9d-f273cdbccfc7&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BALMCctF8GVzuXxzS4Nf-Q&expected_price_source=share&expected_price_currency=brl&expected_price=1904",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20REC%20on%202026-12-31%20through%202027-01-11"
   },
   {
@@ -1209,25 +1209,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20SCL%20on%202026-10-23%20through%202026-11-01"
   },
   {
-   "origem": "RIO",
-   "origem_nome": "Rio (GIG/SDU)",
-   "destino": "BOG",
-   "destino_nome": "Bogotá",
-   "grupo": "america_do_sul",
-   "preco": 2500,
-   "onibus": 260,
-   "custo": 2760,
-   "ida": "2026-10-30",
-   "volta": "2026-11-04",
-   "escalas": 1,
-   "cia": "G3",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/RIO3010BOG04111?t=AV17933940001793445900000985GIGCORBOG17937789001793823600000625BOGGRUGIG_61d9168748a65226f4333f571c00d712_42654&search_date=09102026&expected_price_uuid=01a1218b-82fe-8030-6bcd-ab1f504329f4&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0AHItydBl7JthdYjVCbsTQ&expected_price_source=share&expected_price_currency=brl&expected_price=2500",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20BOG%20on%202026-10-30%20through%202026-11-04"
-  },
-  {
    "origem": "SAO",
    "origem_nome": "São Paulo (GRU/CGH)",
    "destino": "MCO",
@@ -1245,6 +1226,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/SAO1111MCO26111?t=AD17943903001794416400000555VCPMCO17957196001795758900000535MCOVCP_edf27c4ace2d168a4b72cc2987a0f41e_47008&search_date=14102026&expected_price_uuid=01a13bb4-b092-8030-2699-26389a079dc4&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LzhIio8OZjUMIsaZtrdr-A&origin_airports=1&destination_airports=0&expected_price_source=share&expected_price_currency=brl&expected_price=2827",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MCO%20on%202026-11-11%20through%202026-11-26"
+  },
+  {
+   "origem": "RIO",
+   "origem_nome": "Rio (GIG/SDU)",
+   "destino": "BOG",
+   "destino_nome": "Bogotá",
+   "grupo": "america_do_sul",
+   "preco": 2580,
+   "onibus": 260,
+   "custo": 2840,
+   "ida": "2026-11-05",
+   "volta": "2026-11-17",
+   "escalas": 1,
+   "cia": "LA",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/RIO0511BOG17111?t=LA17939064001793938200000650GIGGRUBOG17948910001794933600000590BOGLIMGIG_99d61d4c72dcf68613d2e1a063e1b2c8_42341&search_date=15102026&expected_price_uuid=01a13d4e-19ba-8040-aa5a-c6bc8b18a421&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=rTcBrSd8T7m-h46awDerLQ&expected_price_source=share&expected_price_currency=brl&expected_price=2580",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20BOG%20on%202026-11-05%20through%202026-11-17"
   },
   {
    "origem": "VCP",
@@ -1328,9 +1328,9 @@
    "destino": "LIS",
    "destino_nome": "Lisboa",
    "grupo": "europa",
-   "preco": 3264,
+   "preco": 3262,
    "onibus": 0,
-   "custo": 3264,
+   "custo": 3262,
    "ida": "2026-11-13",
    "volta": "2026-11-21",
    "escalas": 0,
@@ -1338,7 +1338,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&expected_price_source=share&expected_price_currency=brl&expected_price=3264",
+   "aviasales": "https://www.aviasales.com/search/SAO1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&expected_price_source=share&expected_price_currency=brl&expected_price=3262",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20LIS%20on%202026-11-13%20through%202026-11-21"
   },
   {
@@ -1347,9 +1347,9 @@
    "destino": "LIS",
    "destino_nome": "Lisboa",
    "grupo": "europa",
-   "preco": 3264,
+   "preco": 3262,
    "onibus": 70,
-   "custo": 3334,
+   "custo": 3332,
    "ida": "2026-11-13",
    "volta": "2026-11-21",
    "escalas": 0,
@@ -1357,7 +1357,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3264",
+   "aviasales": "https://www.aviasales.com/search/VCP1311LIS21111?t=AD17945931001794640200000605VCPLIS17952522001795279500000635LISVCP_672056e9d04bfda4851ade56a3fb3201_53927&search_date=16102026&expected_price_uuid=01a1429d-bf9e-8031-6a40-d60ae458595d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAKFcEI6GVnBHiLfDE2FOg&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3262",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20LIS%20on%202026-11-13%20through%202026-11-21"
   },
   {
@@ -1404,9 +1404,9 @@
    "destino": "MAD",
    "destino_nome": "Madri",
    "grupo": "europa",
-   "preco": 3487,
+   "preco": 3485,
    "onibus": 0,
-   "custo": 3487,
+   "custo": 3485,
    "ida": "2026-11-26",
    "volta": "2026-12-03",
    "escalas": 1,
@@ -1414,7 +1414,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO2611MAD03121?t=AZ17957079001795799400001285GRUFCOMAD17962773001796323200001005MADFCOGRU_d8fcfde9a739e41323d9b6291d811d91_57471&search_date=16102026&expected_price_uuid=01a1445a-4c65-8040-a927-ef90baa5d737&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jHCfwvXkccinQTC7b1RsQQ&expected_price_source=share&expected_price_currency=brl&expected_price=3487",
+   "aviasales": "https://www.aviasales.com/search/SAO2611MAD03121?t=AZ17957079001795799400001285GRUFCOMAD17962773001796323200001005MADFCOGRU_d8fcfde9a739e41323d9b6291d811d91_57471&search_date=16102026&expected_price_uuid=01a1445a-4c65-8040-a927-ef90baa5d737&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jHCfwvXkccinQTC7b1RsQQ&expected_price_source=share&expected_price_currency=brl&expected_price=3485",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MAD%20on%202026-11-26%20through%202026-12-03"
   },
   {
@@ -1608,25 +1608,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20LTN%20on%202026-11-17%20through%202026-11-25"
   },
   {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "NYC",
-   "destino_nome": "Nova York",
-   "grupo": "america_do_norte",
-   "preco": 4179,
-   "onibus": 70,
-   "custo": 4249,
-   "ida": "2026-10-29",
-   "volta": "2026-11-05",
-   "escalas": 1,
-   "cia": "AD",
-   "mediana": null,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP2910NYC05111?t=AD17933130001793369940001009VCPFLLEWR17939121601793990400001184LGAFLLVCP_187f83bf25903e15303885884ebf36e0_71318&search_date=09102026&expected_price_uuid=01a121a3-d029-8040-2082-075c060a157e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1JJ05_R_s8g8J5ViK_cSHA&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=4179",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20EWR%20on%202026-10-29%20through%202026-11-05"
-  },
-  {
    "origem": "RIO",
    "origem_nome": "Rio (GIG/SDU)",
    "destino": "LIS",
@@ -1779,6 +1760,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20LIS%20on%202026-11-24%20through%202026-12-01"
   },
   {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "NYC",
+   "destino_nome": "Nova York",
+   "grupo": "america_do_norte",
+   "preco": 4668,
+   "onibus": 70,
+   "custo": 4738,
+   "ida": "2026-11-18",
+   "volta": "2026-12-02",
+   "escalas": 1,
+   "cia": "AD",
+   "mediana": null,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP1811NYC02121?t=AD17949951001795046580000978VCPMCOEWR17962194001796323200001610JFKFLLVCP_326ada5d708a02f9b80c81e505ad4b93_76609&search_date=15102026&expected_price_uuid=01a13dc7-4f56-8031-69bd-63703891a4e3&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=egElvOJSxPmtTRc6zFh0LA&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=4668",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20EWR%20on%202026-11-18%20through%202026-12-02"
+  },
+  {
    "origem": "RIO",
    "origem_nome": "Rio (GIG/SDU)",
    "destino": "MIA",
@@ -1860,9 +1860,9 @@
    "destino": "YTO",
    "destino_nome": "Toronto",
    "grupo": "america_do_norte",
-   "preco": 4890,
+   "preco": 4888,
    "onibus": 300,
-   "custo": 5190,
+   "custo": 5188,
    "ida": "2027-01-20",
    "volta": "2027-01-27",
    "escalas": 1,
@@ -1870,7 +1870,7 @@
    "mediana": null,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/BHZ2001YTO27011?t=TS18004878001800556200001260CNFGIGYYZ18010314001801120200001360YYZPUJGRUCNF_118b9263331867e0a330f32231b39912_80798&search_date=16102026&expected_price_uuid=01a14283-0872-8040-6534-ae47859743c6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JufnTegKoGfqXRz9e1JL7Q&expected_price_source=share&expected_price_currency=brl&expected_price=4890",
+   "aviasales": "https://www.aviasales.com/search/BHZ2001YTO27011?t=TS18004878001800556200001260CNFGIGYYZ18010314001801120200001360YYZPUJGRUCNF_118b9263331867e0a330f32231b39912_80798&search_date=16102026&expected_price_uuid=01a14283-0872-8040-6534-ae47859743c6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JufnTegKoGfqXRz9e1JL7Q&expected_price_source=share&expected_price_currency=brl&expected_price=4888",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20YYZ%20on%202027-01-20%20through%202027-01-27"
   },
   {
