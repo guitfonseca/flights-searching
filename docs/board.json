@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T11:30+00:00",
+ "updated_at": "2026-10-25T16:20+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -91,18 +91,18 @@
    "destino": "FLN",
    "destino_nome": "Florianópolis",
    "grupo": "nacional",
-   "preco": 553,
+   "preco": 507,
    "onibus": 0,
-   "custo": 553,
-   "ida": "2027-01-28",
-   "volta": "2027-02-12",
-   "escalas": 1,
+   "custo": 507,
+   "ida": "2027-02-10",
+   "volta": "2027-02-22",
+   "escalas": 0,
    "cia": "G3",
    "mediana": 428.0,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO2801FLN12021?t=G318011271001801178100000850GRUBSBFLN18024555001802506200000845FLNGIGGRU_7e77909330fee4f9382870bc0b64ab8b_8983&search_date=22102026&expected_price_uuid=01a16489-6f8b-8030-694e-d39761d2d5fe&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=NHc6qxBiTYqm3XXslOG8AA&expected_price_source=share&expected_price_currency=brl&expected_price=553",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20FLN%20on%202027-01-28%20through%202027-02-12"
+   "aviasales": "https://www.aviasales.com/search/SAO1002FLN22021?t=G318022785001802283000000075GRUFLN18032943001803299400000085FLNGRU_b53105b6bf5f25fcaba0a0b2e0983e2e_8317&search_date=25102026&expected_price_uuid=01a1737f-a6bd-8031-69bd-06a5677781b9&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=gMzPt_U7wkTfzEaJubpmQA&expected_price_source=share&expected_price_currency=brl&expected_price=507",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20FLN%20on%202027-02-10%20through%202027-02-22"
   },
   {
    "origem": "SAO",
@@ -148,9 +148,9 @@
    "destino": "IGU",
    "destino_nome": "Foz do Iguaçu",
    "grupo": "nacional",
-   "preco": 723,
+   "preco": 725,
    "onibus": 0,
-   "custo": 723,
+   "custo": 725,
    "ida": "2026-12-10",
    "volta": "2026-12-12",
    "escalas": 0,
@@ -158,7 +158,7 @@
    "mediana": 823.0,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1012IGU12121?t=AD17969070001796912700000095VCPIGU17970657001797071100000090IGUVCP_e13615aef22544618650770a917bc246_11665&search_date=24102026&expected_price_uuid=01a16b8b-417c-8030-6f64-df535594888b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CGOLSrVt4-FDupTsC_dwBQ&expected_price_source=share&expected_price_currency=brl&expected_price=723",
+   "aviasales": "https://www.aviasales.com/search/SAO1012IGU12121?t=AD17969070001796912700000095VCPIGU17971047001797110100000090IGUVCP_71ca58d15c8262e6fe21b52e4b0d5aae_11884&search_date=25102026&expected_price_uuid=01a17386-0cc4-8030-6e95-98662ca7e7fe&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XfnP-BkMjkvslMEdlmFV7A&expected_price_source=share&expected_price_currency=brl&expected_price=725",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20IGU%20on%202026-12-10%20through%202026-12-12"
   },
   {
@@ -205,9 +205,9 @@
    "destino": "IGU",
    "destino_nome": "Foz do Iguaçu",
    "grupo": "nacional",
-   "preco": 723,
+   "preco": 725,
    "onibus": 70,
-   "custo": 793,
+   "custo": 795,
    "ida": "2026-12-10",
    "volta": "2026-12-12",
    "escalas": 0,
@@ -215,7 +215,7 @@
    "mediana": 965.5,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1012IGU12121?t=AD17969070001796912700000095VCPIGU17970657001797071100000090IGUVCP_e13615aef22544618650770a917bc246_11665&search_date=24102026&expected_price_uuid=01a16b8b-417c-8030-6f64-df535594888b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CGOLSrVt4-FDupTsC_dwBQ&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=723",
+   "aviasales": "https://www.aviasales.com/search/VCP1012IGU12121?t=AD17969070001796912700000095VCPIGU17971047001797110100000090IGUVCP_71ca58d15c8262e6fe21b52e4b0d5aae_11884&search_date=25102026&expected_price_uuid=01a17386-0cc4-8030-6e95-98662ca7e7fe&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XfnP-BkMjkvslMEdlmFV7A&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=725",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20IGU%20on%202026-12-10%20through%202026-12-12"
   },
   {
@@ -357,18 +357,18 @@
    "destino": "REC",
    "destino_nome": "Recife",
    "grupo": "nacional",
-   "preco": 1031,
+   "preco": 1020,
    "onibus": 0,
-   "custo": 1031,
-   "ida": "2027-01-14",
-   "volta": "2027-01-28",
+   "custo": 1020,
+   "ida": "2027-01-18",
+   "volta": "2027-01-31",
    "escalas": 0,
    "cia": "AD",
    "mediana": 985.5,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1401REC28011?t=AD17999304001799941500000185CGHREC18011064001801118400000200RECCGH_ff84f842a9f61878cb50e05d604482b6_16634&search_date=24102026&expected_price_uuid=01a16e1b-d068-8031-26f1-76f8e97d07bb&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=aGeCWg-wGWQ9a43pHpC2ng&expected_price_source=share&expected_price_currency=brl&expected_price=1031",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CGH%20to%20REC%20on%202027-01-14%20through%202027-01-28"
+   "aviasales": "https://www.aviasales.com/search/SAO1801REC31011?t=AD18002760001800287100000185CGHREC18013656001801377600000200RECCGH_65514f401eb3b9c1c18e72fe2d74dd9d_16720&search_date=25102026&expected_price_uuid=01a17386-ce57-8031-615e-11bfc74955b2&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3E3qQEciPowoGWmrhsnQAw&expected_price_source=share&expected_price_currency=brl&expected_price=1020",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CGH%20to%20REC%20on%202027-01-18%20through%202027-01-31"
   },
   {
    "origem": "SAO",
@@ -1321,6 +1321,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20CUN%20on%202026-11-26%20through%202026-12-03"
   },
   {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "MCO",
+   "destino_nome": "Orlando",
+   "grupo": "america_do_norte",
+   "preco": 3639,
+   "onibus": 70,
+   "custo": 3709,
+   "ida": "2027-02-17",
+   "volta": "2027-02-25",
+   "escalas": 0,
+   "cia": "AD",
+   "mediana": 2828.0,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP1702MCO25021?t=AD18028575001802883600000555VCPMCO18035820001803621300000535MCOVCP_7ae6cfb7278274e2d0d505369d363882_59650&search_date=25102026&expected_price_uuid=01a17315-15b0-8030-62db-4628785ff452&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pNexraBxm9CNxgWukbdQsg&origin_airports=0,1&destination_airports=0,1&expected_price_source=share&expected_price_currency=brl&expected_price=3639",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MCO%20on%202027-02-17%20through%202027-02-25"
+  },
+  {
    "origem": "RIO",
    "origem_nome": "Rio (GIG/SDU)",
    "destino": "NYC",
@@ -1644,25 +1663,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20BCN%20on%202027-02-21%20through%202027-03-31"
   },
   {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "MCO",
-   "destino_nome": "Orlando",
-   "grupo": "america_do_norte",
-   "preco": 4399,
-   "onibus": 70,
-   "custo": 4469,
-   "ida": "2026-11-11",
-   "volta": "2026-11-26",
-   "escalas": 0,
-   "cia": "AD",
-   "mediana": 2828.0,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1111MCO26111?t=AD17943903001794416400000555VCPMCO17957196001795758900000535MCOVCP_edf27c4ace2d168a4b72cc2987a0f41e_70977&search_date=22102026&expected_price_uuid=01a161c1-76ff-8040-69d1-21029ebdb5e8&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=LzhIio8OZjUMIsaZtrdr-A&origin_airports=0,1&destination_airports=0,1&expected_price_source=share&expected_price_currency=brl&expected_price=4399",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MCO%20on%202026-11-11%20through%202026-11-26"
-  },
-  {
    "origem": "RIO",
    "origem_nome": "Rio (GIG/SDU)",
    "destino": "PAR",
@@ -1832,6 +1832,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/BHZ1111NYC21111?t=AV17944077001794522900002040CNFGIGBOGJFK17952201001795340400001885JFKBOGGIGCNF_4276934447ede32c932d36b62c2d319c_83683&search_date=19102026&expected_price_uuid=01a15287-e222-8040-a69b-6807846eaf57&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qz-9Ok4gZMkT4qJBgminkA&expected_price_source=share&expected_price_currency=brl&expected_price=5001",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20JFK%20on%202026-11-11%20through%202026-11-21"
+  },
+  {
+   "origem": "BHZ",
+   "origem_nome": "BH (CNF)",
+   "destino": "LIS",
+   "destino_nome": "Lisboa",
+   "grupo": "europa",
+   "preco": 5075,
+   "onibus": 300,
+   "custo": 5375,
+   "ida": "2026-12-09",
+   "volta": "2026-12-30",
+   "escalas": 1,
+   "cia": "AD",
+   "mediana": 4434.0,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/BHZ0912LIS30121?t=AD17968173001796879700000860CNFGRULIS17986326001798701000001320LISVCPGRUCNF_6a1899996fdd961e3d34bd3186614bfa_83182&search_date=25102026&expected_price_uuid=01a17378-a24a-8031-6404-c5a6445846af&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BMu1RqGLgobW78nfFx8QaA&expected_price_source=share&expected_price_currency=brl&expected_price=5075",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20LIS%20on%202026-12-09%20through%202026-12-30"
   },
   {
    "origem": "BHZ",
