@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T16:20+00:00",
+ "updated_at": "2026-10-25T20:53+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -354,6 +354,25 @@
   {
    "origem": "SAO",
    "origem_nome": "São Paulo (GRU/CGH)",
+   "destino": "FOR",
+   "destino_nome": "Fortaleza",
+   "grupo": "nacional",
+   "preco": 1009,
+   "onibus": 0,
+   "custo": 1009,
+   "ida": "2027-01-29",
+   "volta": "2027-01-31",
+   "escalas": 0,
+   "cia": "AD",
+   "mediana": 1055.0,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/SAO2901FOR31011?t=AD18012123001801224900000210VCPFOR18014088001801432200000390FORRECGRU_472fa9126895b0b3b65883111ebb3738_16279&search_date=25102026&expected_price_uuid=01a17499-face-8040-290d-efde00e72336&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=etPOQUB2SwFwvUeaobNZtw&expected_price_source=share&expected_price_currency=brl&expected_price=1009",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FOR%20on%202027-01-29%20through%202027-01-31"
+  },
+  {
+   "origem": "SAO",
+   "origem_nome": "São Paulo (GRU/CGH)",
    "destino": "REC",
    "destino_nome": "Recife",
    "grupo": "nacional",
@@ -371,23 +390,23 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CGH%20to%20REC%20on%202027-01-18%20through%202027-01-31"
   },
   {
-   "origem": "SAO",
-   "origem_nome": "São Paulo (GRU/CGH)",
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
    "destino": "FOR",
    "destino_nome": "Fortaleza",
    "grupo": "nacional",
-   "preco": 1093,
-   "onibus": 0,
-   "custo": 1093,
-   "ida": "2027-01-16",
+   "preco": 1039,
+   "onibus": 70,
+   "custo": 1109,
+   "ida": "2027-01-29",
    "volta": "2027-01-31",
-   "escalas": 1,
+   "escalas": 0,
    "cia": "AD",
-   "mediana": 1055.0,
+   "mediana": 1389.0,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1601FOR31011?t=AD18001404001800177900000625GRURECFOR18013740001801397400000390FORRECGRU_4a8be210090f999285477b1637a8d27a_17685&search_date=23102026&expected_price_uuid=01a16a7d-ad4e-8030-22e4-622bbed28d98&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bo3gOngto7FmkxlpupojGg&expected_price_source=share&expected_price_currency=brl&expected_price=1093",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20FOR%20on%202027-01-16%20through%202027-01-31"
+   "aviasales": "https://www.aviasales.com/search/VCP2901FOR31011?t=AD18012297001801242300000210VCPFOR18014007001801413300000210FORVCP_c7090aecf7943adb42f47926feab2355_16763&search_date=25102026&expected_price_uuid=01a17499-face-8040-290d-efde00e72336&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=eCPjwkvk_W_s6j-GwoGXpw&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1039",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FOR%20on%202027-01-29%20through%202027-01-31"
   },
   {
    "origem": "RIO",
@@ -616,25 +635,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/RIO1401FOR21011?t=AD17999535001799987100000560GIGRECFOR18005082001800548400000670FORRECVCPGIG_68df3f0ada426bcea8dd270f0c6bb8ed_17790&search_date=24102026&expected_price_uuid=01a16d8d-e7ad-8030-61ee-1e17114238a6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=S3MvIYEcLVL28lnkDc8kjw&expected_price_source=share&expected_price_currency=brl&expected_price=1103",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20FOR%20on%202027-01-14%20through%202027-01-21"
-  },
-  {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "FOR",
-   "destino_nome": "Fortaleza",
-   "grupo": "nacional",
-   "preco": 1302,
-   "onibus": 70,
-   "custo": 1372,
-   "ida": "2026-12-01",
-   "volta": "2026-12-20",
-   "escalas": 0,
-   "cia": "AD",
-   "mediana": 1389.0,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP0112FOR20121?t=AD17961663001796178900000210VCPFOR17977365001797749100000210FORVCP_168e9f7e5f2220361317bd752321084e_21075&search_date=23102026&expected_price_uuid=01a16aa8-dcbd-8040-ad92-607d65a2a01a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5i1IMS6eZN-Dnh8Xl0-g9g&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1302",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FOR%20on%202026-12-01%20through%202026-12-20"
   },
   {
    "origem": "BHZ",
