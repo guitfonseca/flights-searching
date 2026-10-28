@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T05:44+00:00",
+ "updated_at": "2026-10-28T12:56+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -390,6 +390,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20REC%20on%202027-02-22%20through%202027-03-01"
   },
   {
+   "origem": "SAO",
+   "origem_nome": "São Paulo (GRU/CGH)",
+   "destino": "JPA",
+   "destino_nome": "João Pessoa",
+   "grupo": "nacional",
+   "preco": 1059,
+   "onibus": 0,
+   "custo": 1059,
+   "ida": "2027-02-15",
+   "volta": "2027-02-17",
+   "escalas": 0,
+   "cia": "G3",
+   "mediana": 1229,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/SAO1502JPA17021?t=AD18027330001802744400000190GRUJPA18028302001802842200000200JPAVCP_7387a838099051e85bae17b12cd2a360_15937&search_date=28102026&expected_price_uuid=01a18234-f549-8040-620e-6c45c835265d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UjmtDy3HLA8UXojc7P-3HA&expected_price_source=share&expected_price_currency=brl&expected_price=1059",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20JPA%20on%202027-02-15%20through%202027-02-17"
+  },
+  {
    "origem": "VCP",
    "origem_nome": "Campinas (Viracopos)",
    "destino": "NAT",
@@ -428,25 +447,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20FOR%20on%202027-01-29%20through%202027-01-31"
   },
   {
-   "origem": "SAO",
-   "origem_nome": "São Paulo (GRU/CGH)",
-   "destino": "JPA",
-   "destino_nome": "João Pessoa",
-   "grupo": "nacional",
-   "preco": 1129,
-   "onibus": 0,
-   "custo": 1129,
-   "ida": "2026-12-08",
-   "volta": "2026-12-09",
-   "escalas": 1,
-   "cia": "AD",
-   "mediana": 1229,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO0812JPA09121?t=AD17967186001796744400000430GRURECJPA17968326001796860200000460JPARECGRU_67c66723674199be47aa55f26396b6a5_16993&search_date=28102026&expected_price_uuid=01a18023-b6a9-8040-69ee-7cc2e6fa0484&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wSlDOc3TYYNnRNXBgU6NJw&expected_price_source=share&expected_price_currency=brl&expected_price=1129",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20JPA%20on%202026-12-08%20through%202026-12-09"
-  },
-  {
    "origem": "BHZ",
    "origem_nome": "BH (CNF)",
    "destino": "POA",
@@ -464,6 +464,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/BHZ2901POA01021?t=LA18012555001801263600000135CNFPOA18015135001801553400000665POACGHCNF_7936a46536fc2105d255749ab99e1dda_13577&search_date=24102026&expected_price_uuid=01a16c34-d0e2-8040-26ef-7b8a849e80ef&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MS42aCwE6rMRZwMhRECJzg&expected_price_source=share&expected_price_currency=brl&expected_price=842",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20POA%20on%202027-01-29%20through%202027-02-01"
+  },
+  {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "JPA",
+   "destino_nome": "João Pessoa",
+   "grupo": "nacional",
+   "preco": 1086,
+   "onibus": 70,
+   "custo": 1156,
+   "ida": "2027-02-15",
+   "volta": "2027-02-17",
+   "escalas": 0,
+   "cia": "AD",
+   "mediana": 1229,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP1502JPA17021?t=AD18027300001802741400000190VCPJPA18028302001802842200000200JPAVCP_94bf929e975d9a5453ca678e13abd689_16343&search_date=28102026&expected_price_uuid=01a18234-f549-8040-620e-6c45c835265d&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wYICkJ7ZjpOsa-uLjNWR7A&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1086",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20JPA%20on%202027-02-15%20through%202027-02-17"
   },
   {
    "origem": "SAO",
@@ -540,25 +559,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/BHZ0212FOR08121?t=G317961912001796210100000315CNFBSBFOR17967675001796841600001235FORGIGCNF_eb3affdf5eefcd14966eac62f5a3fa9e_14285&search_date=27102026&expected_price_uuid=01a17ca6-aad6-8040-a3f4-2842948b263e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4nwDOJ6CMZ4Y6pLZyC1RQw&expected_price_source=share&expected_price_currency=brl&expected_price=946",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20FOR%20on%202026-12-02%20through%202026-12-08"
-  },
-  {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "JPA",
-   "destino_nome": "João Pessoa",
-   "grupo": "nacional",
-   "preco": 1225,
-   "onibus": 70,
-   "custo": 1295,
-   "ida": "2026-12-09",
-   "volta": "2026-12-11",
-   "escalas": 1,
-   "cia": "AD",
-   "mediana": 1229,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP0912JPA11121?t=AD17968395001796917200001295VCPRECJPA17969898001797018900000485JPACNFVCP_74d9571376a53b7875e13b1f61af0ed2_18438&search_date=28102026&expected_price_uuid=01a18026-dd94-8040-6334-f921021802ca&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR1%7CTBC0&itinerary_key=RlLtYWDkXgtp7sYTdowheQ&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=1225",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20JPA%20on%202026-12-09%20through%202026-12-11"
   },
   {
    "origem": "RIO",
@@ -1003,18 +1003,18 @@
    "destino": "MVD",
    "destino_nome": "Montevidéu",
    "grupo": "america_do_sul",
-   "preco": 1639,
+   "preco": 1797,
    "onibus": 0,
-   "custo": 1639,
-   "ida": "2026-10-28",
-   "volta": "2026-11-04",
-   "escalas": 1,
-   "cia": "AD",
+   "custo": 1797,
+   "ida": "2026-12-14",
+   "volta": "2026-12-20",
+   "escalas": 0,
+   "cia": "G3",
    "mediana": 1744,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO2810MVD04111?t=AD17931723001793193900000360GRUCNFMVD17938068001793831100000405MVDCNFCGH_207eadd1c0f74a50b11e0935dbfe44bf_26549&search_date=23102026&expected_price_uuid=01a167ff-1cb7-8040-a35b-218fc7e6f523&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=L7gEPukCiQo06kBmnZyzdQ&expected_price_source=share&expected_price_currency=brl&expected_price=1639",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MVD%20on%202026-10-28%20through%202026-11-04"
+   "aviasales": "https://www.aviasales.com/search/SAO1412MVD20121?t=G317972415001797251100000160GRUMVD17977725001797781500000150MVDGRU_632a0f24f68bc7efb74d428401362f55_26826&search_date=26102026&expected_price_uuid=01a177cc-faac-8031-2702-ebe51c56e310&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ogsPth0mgH51rir9JsIWZg&expected_price_source=share&expected_price_currency=brl&expected_price=1797",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MVD%20on%202026-12-14%20through%202026-12-20"
   },
   {
    "origem": "VCP",
@@ -1364,9 +1364,9 @@
    "destino": "LON",
    "destino_nome": "Londres",
    "grupo": "europa",
-   "preco": 3634,
+   "preco": 3635,
    "onibus": 0,
-   "custo": 3634,
+   "custo": 3635,
    "ida": "2026-11-17",
    "volta": "2026-11-25",
    "escalas": 1,
@@ -1374,7 +1374,7 @@
    "mediana": 4000,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1711LON25111?t=AD17949324001794995400000870GRULISLGW17956098001795715700001945STNMADVCP_9f40b8845b533e8093536494f98395a4_54694&search_date=28102026&expected_price_uuid=01a17fec-5cfd-8040-ad3f-bce278271dd0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_ZVqFW_105KlsJ9RF9dA-g&expected_price_source=share&expected_price_currency=brl&expected_price=3634",
+   "aviasales": "https://www.aviasales.com/search/SAO1711LON25111?t=AD17949324001794995400000870GRULISLGW17956098001795715700001945STNMADVCP_9f40b8845b533e8093536494f98395a4_54694&search_date=28102026&expected_price_uuid=01a17fec-5cfd-8040-ad3f-bce278271dd0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_ZVqFW_105KlsJ9RF9dA-g&expected_price_source=share&expected_price_currency=brl&expected_price=3635",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20LGW%20on%202026-11-17%20through%202026-11-25"
   },
   {
@@ -1395,25 +1395,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/VCP2611CUN03121?t=G317957160001795798800001500VCPBSBBOGCUN17963208001796425500001625CUNBOGGIGVCP_59bdde111dad1c0495edf126ea764c95_58199&search_date=23102026&expected_price_uuid=01a167fa-df71-8040-2eae-872b96d0f4b7&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR1%7CTBC0&itinerary_key=FFkg7_YMcuJcYob_y9-gog&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=3594",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20CUN%20on%202026-11-26%20through%202026-12-03"
-  },
-  {
-   "origem": "VCP",
-   "origem_nome": "Campinas (Viracopos)",
-   "destino": "MCO",
-   "destino_nome": "Orlando",
-   "grupo": "america_do_norte",
-   "preco": 3634,
-   "onibus": 70,
-   "custo": 3704,
-   "ida": "2027-02-17",
-   "volta": "2027-02-25",
-   "escalas": 0,
-   "cia": "AD",
-   "mediana": 3634,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/VCP1702MCO25021?t=AD18028575001802883600000555VCPMCO18035820001803621300000535MCOVCP_7ae6cfb7278274e2d0d505369d363882_59650&search_date=25102026&expected_price_uuid=01a17315-15b0-8030-62db-4628785ff452&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pNexraBxm9CNxgWukbdQsg&origin_airports=0,1&destination_airports=0,1&expected_price_source=share&expected_price_currency=brl&expected_price=3634",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MCO%20on%202027-02-17%20through%202027-02-25"
   },
   {
    "origem": "RIO",
@@ -1528,6 +1509,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/VCP2202PAR03031?t=AD18032658001803334800000910VCPLISORY18040608001804103100000945ORYLISVCP_2894f8c122338466247d404557590066_61936&search_date=26102026&expected_price_uuid=01a1798e-715b-8040-adfc-7f3e3cce3b57&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=tNklvx0aI94AhUCRNYik5Q&origin_airports=0&destination_airports=1&expected_price_source=share&expected_price_currency=brl&expected_price=4151",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20ORY%20on%202027-02-22%20through%202027-03-03"
+  },
+  {
+   "origem": "VCP",
+   "origem_nome": "Campinas (Viracopos)",
+   "destino": "MCO",
+   "destino_nome": "Orlando",
+   "grupo": "america_do_norte",
+   "preco": 4196,
+   "onibus": 70,
+   "custo": 4266,
+   "ida": "2027-02-17",
+   "volta": "2027-02-25",
+   "escalas": 2,
+   "cia": "AD",
+   "mediana": 3634,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/VCP1702MCO25021?t=AV18028905001802960700001290VCPGIGBOGMCO18035934001803678900001305MCOBOGGIGVCP_b943ac7c308d2b3f65ee7d93a3974743_63258&search_date=28102026&expected_price_uuid=01a181d6-84b0-8030-a3a9-23dc2822b230&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=27b7tT044l5wutQt3Lf-Qg&origin_airports=0,1&destination_airports=0,1&expected_price_source=share&expected_price_currency=brl&expected_price=4196",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20VCP%20to%20MCO%20on%202027-02-17%20through%202027-02-25"
   },
   {
    "origem": "BHZ",
