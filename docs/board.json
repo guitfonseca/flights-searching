@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T06:05+00:00",
+ "updated_at": "2026-11-01T13:25+00:00",
  "routes": [
   {
    "origem": "SAO",
@@ -642,6 +642,25 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20FOR%20on%202026-12-02%20through%202026-12-08"
   },
   {
+   "origem": "RIO",
+   "origem_nome": "Rio (GIG/SDU)",
+   "destino": "JPA",
+   "destino_nome": "João Pessoa",
+   "grupo": "nacional",
+   "preco": 1002,
+   "onibus": 260,
+   "custo": 1262,
+   "ida": "2027-03-06",
+   "volta": "2027-03-20",
+   "escalas": 2,
+   "cia": "AD",
+   "mediana": 1112,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/RIO0603JPA20031?t=AD18043443001804434000001495GIGCNFRECJPA18055590001805619600001010JPARECVCPGIG_c703a68e5143f37ddf3bf4fff4d3c141_14792&search_date=01112026&expected_price_uuid=01a19746-1567-8040-a473-54dab123fc6b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bK42GDmJDd-TlGm2CccGew&expected_price_source=share&expected_price_currency=brl&expected_price=1002",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20JPA%20on%202027-03-06%20through%202027-03-20"
+  },
+  {
    "origem": "BHZ",
    "origem_nome": "BH (CNF)",
    "destino": "MCZ",
@@ -678,25 +697,6 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/RIO0812REC13121?t=AD17967378001796764200000440SDUVCPREC17971296001797147600000300RECCNFSDU_6a7cd95acc7a4748b03d2e3f2de67571_15234&search_date=31102026&expected_price_uuid=01a1908c-08cd-8040-acab-966f38751675&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=laTtokkFDXKNzilLl67XUw&expected_price_source=share&expected_price_currency=brl&expected_price=1032",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20SDU%20to%20REC%20on%202026-12-08%20through%202026-12-13"
-  },
-  {
-   "origem": "RIO",
-   "origem_nome": "Rio (GIG/SDU)",
-   "destino": "JPA",
-   "destino_nome": "João Pessoa",
-   "grupo": "nacional",
-   "preco": 1054,
-   "onibus": 260,
-   "custo": 1314,
-   "ida": "2026-12-03",
-   "volta": "2026-12-08",
-   "escalas": 2,
-   "cia": "AD",
-   "mediana": 1112,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/RIO0312JPA08121?t=AD17963091001796398800001495GIGCNFRECJPA17967462001796800500000905JPARECCNFGIG_6f62137e6f36d5736369b660f5c1b11b_15733&search_date=26102026&expected_price_uuid=01a179b5-2e7c-8030-e1eb-7725d92ec7ad&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gVSqqAQtlf3SqCTaRWtMkA&expected_price_source=share&expected_price_currency=brl&expected_price=1054",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20JPA%20on%202026-12-03%20through%202026-12-08"
   },
   {
    "origem": "RIO",
@@ -951,9 +951,9 @@
    "destino": "BUE",
    "destino_nome": "Buenos Aires",
    "grupo": "america_do_sul",
-   "preco": 1268,
+   "preco": 1271,
    "onibus": 0,
-   "custo": 1268,
+   "custo": 1271,
    "ida": "2026-12-07",
    "volta": "2026-12-16",
    "escalas": 0,
@@ -961,7 +961,7 @@
    "mediana": 1242,
    "promo": false,
    "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO0712BUE16121?t=TK17966712001796682300000185GRUEZE17974653001797474600000155EZEGRU_dd3d86041eb0e2e8aef590f059cd261d_18730&search_date=31102026&expected_price_uuid=01a193ad-17aa-8040-2473-035486711800&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=_VOlYP1rsG7Nh7mqnXt6RQ&expected_price_source=share&expected_price_currency=brl&expected_price=1268",
+   "aviasales": "https://www.aviasales.com/search/SAO0712BUE16121?t=TK17966712001796682300000185GRUEZE17974653001797474600000155EZEGRU_dd3d86041eb0e2e8aef590f059cd261d_18764&search_date=01112026&expected_price_uuid=01a196f5-3c2d-8040-6f05-e7d98d263240&static_fare_key=TY%7CP1%7CH1%7CL1_1_23%7CCH0%7CR0%7CTBC1&itinerary_key=_VOlYP1rsG7Nh7mqnXt6RQ&expected_price_source=share&expected_price_currency=brl&expected_price=1271",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20EZE%20on%202026-12-07%20through%202026-12-16"
   },
   {
@@ -984,25 +984,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20AEP%20on%202027-03-12%20through%202027-03-17"
   },
   {
-   "origem": "RIO",
-   "origem_nome": "Rio (GIG/SDU)",
-   "destino": "SCL",
-   "destino_nome": "Santiago",
-   "grupo": "america_do_sul",
-   "preco": 1427,
-   "onibus": 260,
-   "custo": 1687,
-   "ida": "2027-02-03",
-   "volta": "2027-03-03",
-   "escalas": 0,
-   "cia": "JA",
-   "mediana": 1427,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/RIO0302SCL03031?t=JA18016575001801674780000288GIGSCL18040815001804096500000250SCLGIG_d048cfcc161800be09258166c69530ea_23416&search_date=25102026&expected_price_uuid=01a172ec-9e9d-8030-2dc3-924951e0a351&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FmLBG3oxe-vMVaOS-Wkp_w&expected_price_source=share&expected_price_currency=brl&expected_price=1427",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20SCL%20on%202027-02-03%20through%202027-03-03"
-  },
-  {
    "origem": "SAO",
    "origem_nome": "São Paulo (GRU/CGH)",
    "destino": "MVD",
@@ -1020,6 +1001,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/SAO1412MVD20121?t=G317972415001797251100000160GRUMVD17977725001797781500000150MVDGRU_632a0f24f68bc7efb74d428401362f55_26826&search_date=26102026&expected_price_uuid=01a177cc-faac-8031-2702-ebe51c56e310&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ogsPth0mgH51rir9JsIWZg&expected_price_source=share&expected_price_currency=brl&expected_price=1797",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MVD%20on%202026-12-14%20through%202026-12-20"
+  },
+  {
+   "origem": "RIO",
+   "origem_nome": "Rio (GIG/SDU)",
+   "destino": "SCL",
+   "destino_nome": "Santiago",
+   "grupo": "america_do_sul",
+   "preco": 1648,
+   "onibus": 260,
+   "custo": 1908,
+   "ida": "2026-11-02",
+   "volta": "2026-11-09",
+   "escalas": 0,
+   "cia": "JA",
+   "mediana": 1427,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/RIO0211SCL09111?t=JA17936163001793633580000288GIGSCL17941995601794214800000254SCLGIG_877620c9f4dcccacaabe245ba0b52e57_24540&search_date=26102026&expected_price_uuid=01a17880-13ac-8031-6fa5-562cb321a603&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=B2kXAks7FqNPj1GcAzdgvg&expected_price_source=share&expected_price_currency=brl&expected_price=1648",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20SCL%20on%202026-11-02%20through%202026-11-09"
   },
   {
    "origem": "VCP",
@@ -1193,25 +1193,6 @@
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20MVD%20on%202026-11-02%20through%202026-11-25"
   },
   {
-   "origem": "SAO",
-   "origem_nome": "São Paulo (GRU/CGH)",
-   "destino": "MIA",
-   "destino_nome": "Miami",
-   "grupo": "america_do_norte",
-   "preco": 2850,
-   "onibus": 0,
-   "custo": 2850,
-   "ida": "2027-03-16",
-   "volta": "2027-03-25",
-   "escalas": 1,
-   "cia": "DM",
-   "mediana": 2976,
-   "promo": false,
-   "motivos": [],
-   "aviasales": "https://www.aviasales.com/search/SAO1603MIA25031?t=DM18051588001805199900000745GRUPUJMIA18059718001806036900001025MIALIMGRU_b9f5c1b067c80c5a9122f61e186b53db_42935&search_date=27102026&expected_price_uuid=01a17e67-de3e-8040-acb8-0093aaae17a6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=HcS7C_GDkPPo4LVzLRy-yw&expected_price_source=share&expected_price_currency=brl&expected_price=2850",
-   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MIA%20on%202027-03-16%20through%202027-03-25"
-  },
-  {
    "origem": "RIO",
    "origem_nome": "Rio (GIG/SDU)",
    "destino": "BOG",
@@ -1229,6 +1210,25 @@
    "motivos": [],
    "aviasales": "https://www.aviasales.com/search/RIO0412BOG12121?t=G317964252001796471700000895GIGGRUBOG17970951001797143100000680BOGGRUGIG_138fcb10f9e2172b48503cea9a700bd3_39832&search_date=29102026&expected_price_uuid=01a1889c-47a0-8040-aec8-35091ef6a903&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wVnPN6KfMteJ082zLfMC7g&expected_price_source=share&expected_price_currency=brl&expected_price=2637",
    "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GIG%20to%20BOG%20on%202026-12-04%20through%202026-12-12"
+  },
+  {
+   "origem": "SAO",
+   "origem_nome": "São Paulo (GRU/CGH)",
+   "destino": "MIA",
+   "destino_nome": "Miami",
+   "grupo": "america_do_norte",
+   "preco": 2902,
+   "onibus": 0,
+   "custo": 2902,
+   "ida": "2027-03-11",
+   "volta": "2027-03-15",
+   "escalas": 1,
+   "cia": "DM",
+   "mediana": 2976,
+   "promo": false,
+   "motivos": [],
+   "aviasales": "https://www.aviasales.com/search/SAO1103MIA15031?t=DM18047268001804764300000745GRUPUJMIA18051078001805172900001025MIALIMGRU_23a6a560aeb1b04327dddfbffadab47e_43497&search_date=28102026&expected_price_uuid=01a182fc-7e6f-8040-6a5b-bb484dc81f17&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4H7xCUMNJ_n03dG5II8Pqg&expected_price_source=share&expected_price_currency=brl&expected_price=2902",
+   "google": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20GRU%20to%20MIA%20on%202027-03-11%20through%202027-03-15"
   },
   {
    "origem": "RIO",
