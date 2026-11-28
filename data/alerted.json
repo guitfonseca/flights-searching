@@ -44,19 +44,31 @@
   "preco": 523
  },
  "SAO-FLN": {
-  "date": "2026-11-27",
-  "preco": 289
+  "date": "2026-11-28",
+  "preco": 259
  },
  "RIO-MAO": {
   "date": "2026-11-14",
   "preco": 994
  },
  "SAO-BEL": {
-  "date": "2026-11-26",
-  "preco": 723
+  "date": "2026-11-28",
+  "preco": 591
  },
  "SAO-NYC": {
   "date": "2026-11-28",
   "preco": 2694
+ },
+ "SAO-MCZ": {
+  "date": "2026-11-28",
+  "preco": 696
+ },
+ "SAO-NAT": {
+  "date": "2026-11-28",
+  "preco": 666
+ },
+ "SAO-LIS": {
+  "date": "2026-11-28",
+  "preco": 2940
  }
 }
